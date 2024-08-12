@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cerveza",
+        "precio": 3,
+        "imagen": "../img/CervezaArtesanal.jpg",
+        "descripcion": "Cerveza artesanal."
+    },
+    {
+        "id": 2,
+        "nombre": "Vino",
+        "precio": 12,
+        "imagen": "../img/VinoRutini.jpg",
+        "descripcion": "Vino tinto de calidad."
+    }
+]

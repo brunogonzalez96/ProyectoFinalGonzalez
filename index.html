@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Bebidas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">VENTA DE BEBIDAS GONZALEZ</h1>
+        <div id="bebidas-list" class="row"></div> <!-- Contenedor para las tarjetas -->
+
+        <!-- Sección del carrito -->
+        <div id="carrito" class="mt-5">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito" class="list-group"></ul>
+            <p class="mt-3"><strong>Total: $<span id="total-carrito">0</span></strong></p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script> <!-- Script que generará las tarjetas dinámicamente -->
+</body>
+</html>
